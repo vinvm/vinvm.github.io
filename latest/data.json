@@ -1,1 +1,118 @@
-{"patch":"1.20.0.2","date":"02/07/2018","tier1":[{"hero":"Lucio","role":"Support"},{"hero":"D.Va","role":"Tank"},{"hero":"Winston","role":"Tank"}],"tier2":[{"hero":"Soldier: 76","role":"Offense"},{"hero":"Junkrat","role":"Defense"},{"hero":"Mercy","role":"Support"},{"hero":"Moira","role":"Support"},{"hero":"Zenyatta","role":"Support"},{"hero":"Orisa","role":"Tank"},{"hero":"Reinhardt","role":"Tank"},{"hero":"Zarya","role":"Tank"}],"tier3":[{"hero":"Hanzo","role":"Defense"},{"hero":"Ana","role":"Support"},{"hero":"Doomfist","role":"Offense"},{"hero":"Genji","role":"Offense"},{"hero":"McCree","role":"Offense"},{"hero":"Pharah","role":"Offense"},{"hero":"Reaper","role":"Offense"},{"hero":"Tracer","role":"Offense"},{"hero":"Roadhog","role":"Tank"}],"tier4":[{"hero":"Mei","role":"Defense"},{"hero":"Widowmaker","role":"Defense"}],"tier5":[{"hero":"Bastion","role":"Defense"},{"hero":"Torbjorn","role":"Defense"},{"hero":"Sombra","role":"Offense"},{"hero":"Symmetra","role":"Support"}]}
+{
+  "patch": "1.20.0.2",
+  "date": "02/07/2018",
+  "tier1": [
+    {
+      "hero": "Mercy",
+      "role": "Support"
+    },
+    {
+      "hero": "D.Va",
+      "role": "Tank"
+    },
+    {
+      "hero": "Moira",
+      "role": "Support"
+    },
+    {
+      "hero": "Tracer",
+      "role": "Offense"
+    },
+    {
+      "hero": "Zenyatta",
+      "role": "Support"
+    }
+  ],
+  "tier2": [
+    {
+      "hero": "Junkrat",
+      "role": "Defense"
+    },
+    {
+      "hero": "Lucio",
+      "role": "Support"
+    },
+    {
+      "hero": "Reinhardt",
+      "role": "Tank"
+    },
+    {
+      "hero": "Soldier: 76",
+      "role": "Offense"
+    },
+    {
+      "hero": "Winston",
+      "role": "Tank"
+    },
+    {
+      "hero": "Zarya",
+      "role": "Tank"
+    }
+  ],
+  "tier3": [
+    {
+      "hero": "Ana",
+      "role": "Support"
+    },
+    {
+      "hero": "Genji",
+      "role": "Offense"
+    },
+    {
+      "hero": "McCree",
+      "role": "Offense"
+    },
+    {
+      "hero": "Pharah",
+      "role": "Offense"
+    }
+  ],
+  "tier4": [
+    {
+      "hero": "Orisa",
+      "role": "Tank"
+    },
+    {
+      "hero": "Hanzo",
+      "role": "Defense"
+    },
+    {
+      "hero": "Doomfist",
+      "role": "Offense"
+    },
+    {
+      "hero": "Reaper",
+      "role": "Offense"
+    },
+    {
+      "hero": "Roadhog",
+      "role": "Tank"
+    },
+    {
+      "hero": "Mei",
+      "role": "Defense"
+    },
+    {
+      "hero": "Widowmaker",
+      "role": "Defense"
+    }
+  ],
+  "tier5": [
+    {
+      "hero": "Bastion",
+      "role": "Defense"
+    },
+    {
+      "hero": "Torbjorn",
+      "role": "Defense"
+    },
+    {
+      "hero": "Sombra",
+      "role": "Offense"
+    },
+    {
+      "hero": "Symmetra",
+      "role": "Support"
+    }
+  ]
+}
