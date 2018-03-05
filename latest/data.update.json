@@ -4,115 +4,141 @@
   "tier1": [
     {
       "hero": "Mercy",
-      "role": "Support"
+      "role": "Support",
+      "difficulty": 1
     },
     {
       "hero": "D.Va",
-      "role": "Tank"
+      "role": "Tank",
+      "difficulty": 2
     },
     {
       "hero": "Moira",
-      "role": "Support"
+      "role": "Support",
+      "difficulty": 2
     },
     {
       "hero": "Tracer",
-      "role": "Offense"
+      "role": "Offense",
+      "difficulty": 2
     },
     {
       "hero": "Zenyatta",
-      "role": "Support"
+      "role": "Support",
+      "difficulty": 3
     }
   ],
   "tier2": [
     {
       "hero": "Junkrat",
-      "role": "Defense"
+      "role": "Defense",
+      "difficulty": 2
     },
     {
       "hero": "Lucio",
-      "role": "Support"
+      "role": "Support",
+      "difficulty": 2
     },
     {
       "hero": "Reinhardt",
-      "role": "Tank"
+      "role": "Tank",
+      "difficulty": 1
     },
     {
       "hero": "Soldier: 76",
-      "role": "Offense"
+      "role": "Offense",
+      "difficulty": 1
     },
     {
       "hero": "Winston",
-      "role": "Tank"
+      "role": "Tank",
+      "difficulty": 2
     },
     {
       "hero": "Zarya",
-      "role": "Tank"
+      "role": "Tank",
+      "difficulty": 3
     }
   ],
   "tier3": [
     {
       "hero": "Ana",
-      "role": "Support"
+      "role": "Support",
+      "difficulty": 3
     },
     {
       "hero": "Genji",
-      "role": "Offense"
+      "role": "Offense",
+      "difficulty": 3
     },
     {
       "hero": "McCree",
-      "role": "Offense"
+      "role": "Offense",
+      "difficulty": 2
     },
     {
       "hero": "Pharah",
-      "role": "Offense"
+      "role": "Offense",
+      "difficulty": 1
     }
   ],
   "tier4": [
     {
       "hero": "Orisa",
-      "role": "Tank"
+      "role": "Tank",
+      "difficulty": 2
     },
     {
       "hero": "Hanzo",
-      "role": "Defense"
+      "role": "Defense",
+      "difficulty": 3
     },
     {
       "hero": "Doomfist",
-      "role": "Offense"
+      "role": "Offense",
+      "difficulty": 2
     },
     {
       "hero": "Reaper",
-      "role": "Offense"
+      "role": "Offense",
+      "difficulty": 1
     },
     {
       "hero": "Roadhog",
-      "role": "Tank"
+      "role": "Tank",
+      "difficulty": 1
     },
     {
       "hero": "Mei",
-      "role": "Defense"
+      "role": "Defense",
+      "difficulty": 3
     },
     {
       "hero": "Widowmaker",
-      "role": "Defense"
+      "role": "Defense",
+      "difficulty": 2
     }
   ],
   "tier5": [
     {
       "hero": "Bastion",
-      "role": "Defense"
+      "role": "Defense",
+      "difficulty": 1
     },
     {
       "hero": "Torbjorn",
-      "role": "Defense"
+      "role": "Defense",
+      "difficulty": 2
     },
     {
       "hero": "Sombra",
-      "role": "Offense"
+      "role": "Offense",
+      "difficulty": 3
     },
     {
       "hero": "Symmetra",
-      "role": "Support"
+      "role": "Support",
+      "difficulty": 2
     }
   ]
 }
