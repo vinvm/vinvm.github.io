@@ -5,140 +5,166 @@
     {
       "hero": "Mercy",
       "role": "Support",
-      "difficulty": 1
+      "difficulty": 1,
+      "icon": "https://vinvm.github.io/icons/heroes/mercy.png"
     },
     {
       "hero": "D.Va",
       "role": "Tank",
-      "difficulty": 2
+      "difficulty": 2,
+      "icon": "https://vinvm.github.io/icons/heroes/dva.png"
     },
     {
       "hero": "Moira",
       "role": "Support",
-      "difficulty": 2
+      "difficulty": 2,
+      "icon": "https://vinvm.github.io/icons/heroes/moira.png"
     },
     {
       "hero": "Tracer",
       "role": "Offense",
-      "difficulty": 2
+      "difficulty": 2,
+      "icon": "https://vinvm.github.io/icons/heroes/tracer.png"
     },
     {
       "hero": "Zenyatta",
       "role": "Support",
-      "difficulty": 3
+      "difficulty": 3,
+      "icon": "https://vinvm.github.io/icons/heroes/.png"
     }
   ],
   "tier2": [
     {
       "hero": "Junkrat",
       "role": "Defense",
-      "difficulty": 2
+      "difficulty": 2,
+      "icon": "https://vinvm.github.io/icons/heroes/zenyatta.png"
     },
     {
       "hero": "Lucio",
       "role": "Support",
-      "difficulty": 2
+      "difficulty": 2,
+      "icon": "https://vinvm.github.io/icons/heroes/lucio.png"
     },
     {
       "hero": "Reinhardt",
       "role": "Tank",
-      "difficulty": 1
+      "difficulty": 1,
+      "icon": "https://vinvm.github.io/icons/heroes/reinhardt.png"
     },
     {
       "hero": "Soldier: 76",
       "role": "Offense",
-      "difficulty": 1
+      "difficulty": 1,
+      "icon": "https://vinvm.github.io/icons/heroes/soldier-76.png"
     },
     {
       "hero": "Winston",
       "role": "Tank",
-      "difficulty": 2
+      "difficulty": 2,
+      "icon": "https://vinvm.github.io/icons/heroes/winston.png"
     },
     {
       "hero": "Zarya",
       "role": "Tank",
-      "difficulty": 3
+      "difficulty": 3,
+      "icon": "https://vinvm.github.io/icons/heroes/zarya.png"
     }
   ],
   "tier3": [
     {
       "hero": "Ana",
       "role": "Support",
-      "difficulty": 3
+      "difficulty": 3,
+      "icon": "https://vinvm.github.io/icons/heroes/ana.png"
     },
     {
       "hero": "Genji",
       "role": "Offense",
-      "difficulty": 3
+      "difficulty": 3,
+      "icon": "https://vinvm.github.io/icons/heroes/genji.png"
     },
     {
       "hero": "McCree",
       "role": "Offense",
-      "difficulty": 2
+      "difficulty": 2,
+      "icon": "https://vinvm.github.io/icons/heroes/mccree.png"
     },
     {
       "hero": "Pharah",
       "role": "Offense",
-      "difficulty": 1
+      "difficulty": 1,
+      "icon": "https://vinvm.github.io/icons/heroes/pharah.png"
     }
   ],
   "tier4": [
     {
       "hero": "Orisa",
       "role": "Tank",
-      "difficulty": 2
+      "difficulty": 2,
+      "icon": "https://vinvm.github.io/icons/heroes/orisa.png"
     },
     {
       "hero": "Hanzo",
       "role": "Defense",
-      "difficulty": 3
+      "difficulty": 3,
+      "icon": "https://vinvm.github.io/icons/heroes/hanzo.png"
     },
     {
       "hero": "Doomfist",
       "role": "Offense",
-      "difficulty": 2
+      "difficulty": 2,
+      "icon": "https://vinvm.github.io/icons/heroes/doomfist.png"
     },
     {
       "hero": "Reaper",
       "role": "Offense",
-      "difficulty": 1
+      "difficulty": 1,
+      "icon": "https://vinvm.github.io/icons/heroes/reaper.png"
     },
     {
       "hero": "Roadhog",
       "role": "Tank",
-      "difficulty": 1
+      "difficulty": 1,
+      "icon": "https://vinvm.github.io/icons/heroes/roadhog.png"
     },
     {
       "hero": "Mei",
       "role": "Defense",
-      "difficulty": 3
+      "difficulty": 3,
+      "icon": "https://vinvm.github.io/icons/heroes/mei.png"
     },
     {
       "hero": "Widowmaker",
       "role": "Defense",
-      "difficulty": 2
+      "difficulty": 2,
+      "icon": "https://vinvm.github.io/icons/heroes/widowmaker.png"
     }
   ],
   "tier5": [
     {
       "hero": "Bastion",
       "role": "Defense",
-      "difficulty": 1
+      "difficulty": 1,
+      "icon": "https://vinvm.github.io/icons/heroes/bastion.png"
     },
     {
       "hero": "Torbjorn",
       "role": "Defense",
-      "difficulty": 2
+      "difficulty": 2,
+      "icon": "https://vinvm.github.io/icons/heroes/torbjorn.png"
     },
     {
       "hero": "Sombra",
       "role": "Offense",
-      "difficulty": 3
+      "difficulty": 3,
+      "icon": "https://vinvm.github.io/icons/heroes/sombra.png"
     },
     {
       "hero": "Symmetra",
       "role": "Support",
-      "difficulty": 2
+      "difficulty": 2,
+      "icon": "https://vinvm.github.io/icons/heroes/symmetra.png"
     }
   ]
 }
