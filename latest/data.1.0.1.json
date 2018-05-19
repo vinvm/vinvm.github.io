@@ -79,6 +79,12 @@
       "icon": "https://vinvm.github.io/icons/heroes/ana.png"
     },
     {
+      "hero": "Brigitte",
+      "role": "Support",
+      "difficulty": 1,
+      "icon": "https://vinvm.github.io/icons/heroes/brigitte.png"
+    },
+    {
       "hero": "Genji",
       "role": "Offense",
       "difficulty": 3,
