@@ -25,8 +25,8 @@
   <script src="https://cdn.jsdelivr.net/npm/gun/sea.js"></script>
 
   <script>
-    // Initialize Gun
-    var gun = Gun();
+    // Initialize Gun with a peer relay server
+    var gun = Gun(['https://gun-manhattan.herokuapp.com/gun']);
 
     // Generate a unique session ID
     var sessionId = Gun.SEA.random(12).toString('hex');
@@ -41,16 +41,25 @@
     var textArea = document.getElementById('sharedText');
     var sessionList = document.getElementById('sessionList');
 
+    // Flag to prevent recursive updates
+    var isUpdating = false;
+
     // Update the textarea when data changes
     sharedText.on(function(data) {
-      if (data && data.text !== textArea.value) {
+      if (data && data.text !== undefined && !isUpdating) {
+        isUpdating = true;
         textArea.value = data.text || '';
+        isUpdating = false;
       }
     });
 
     // Sync textarea changes to Gun
     textArea.addEventListener('input', function() {
-      sharedText.put({ text: textArea.value });
+      if (!isUpdating) {
+        isUpdating = true;
+        sharedText.put({ text: textArea.value });
+        isUpdating = false;
+      }
     });
 
     // Add this session to active sessions
