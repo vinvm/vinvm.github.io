@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Distributed Text Sync with Active Sessions</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    #sessions { margin-top: 20px; }
+    #sessions ul { list-style-type: none; padding: 0; }
+    #sessions li { margin: 5px 0; }
+  </style>
+</head>
+<body>
+
+  <h1>Distributed Text Synchronization</h1>
+  <textarea id="sharedText" rows="10" cols="50" placeholder="Start typing..."></textarea>
+
+  <div id="sessions">
+    <h2>Active Sessions</h2>
+    <ul id="sessionList"></ul>
+  </div>
+
+  <!-- Include Gun.js from CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/gun/gun.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gun/sea.js"></script>
+
+  <script>
+    // Initialize Gun
+    var gun = Gun();
+
+    // Generate a unique session ID
+    var sessionId = Gun.SEA.random(12).toString('hex');
+
+    // Reference to the shared text node
+    var sharedText = gun.get('sharedText');
+
+    // Reference to the active sessions node
+    var sessions = gun.get('activeSessions');
+
+    // DOM Elements
+    var textArea = document.getElementById('sharedText');
+    var sessionList = document.getElementById('sessionList');
+
+    // Update the textarea when data changes
+    sharedText.on(function(data) {
+      if (data && data.text !== textArea.value) {
+        textArea.value = data.text || '';
+      }
+    });
+
+    // Sync textarea changes to Gun
+    textArea.addEventListener('input', function() {
+      sharedText.put({ text: textArea.value });
+    });
+
+    // Add this session to active sessions
+    sessions.get(sessionId).put({ active: true });
+
+    // Remove this session from active sessions on unload
+    window.addEventListener('beforeunload', function() {
+      sessions.get(sessionId).put(null);
+    });
+
+    // Update the session list when sessions change
+    sessions.map().on(function(data, key) {
+      updateSessionList();
+    });
+
+    function updateSessionList() {
+      sessionList.innerHTML = '';
+      sessions.map().once(function(data, key) {
+        if (data && data.active) {
+          var li = document.createElement('li');
+          li.textContent = 'Session: ' + key;
+          sessionList.appendChild(li);
+        }
+      });
+    }
+
+    // Initial population of the session list
+    updateSessionList();
+  </script>
+
+</body>
+</html>
